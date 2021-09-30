@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #fafafa;
+  --secondary-color: #000;
+  --third-color: tomato;
+}
+
+body {
+  margin-top: 70px;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+a:link {
+  color: var(--third-color);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--third-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.about-me,
+.content-creation,
+.front-end,
+.copywriting,
+.contact-me {
+  margin: 30px auto 0;
+  width: 90%;
+}
